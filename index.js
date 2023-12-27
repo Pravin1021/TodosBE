@@ -10,7 +10,7 @@ const app=express()
 
 //Middleware
 app.use(express.json())
-app.use(cors({  origin: 'https://f-etodos.vercel.app/Register',
+app.use(cors({  origin: 'https://f-etodos.vercel.app',
 }))
 
 mongooes.connect("mongodb+srv://mpravin1021:Pravin12@todoapp.njingt7.mongodb.net/?retryWrites=true&w=majority")
